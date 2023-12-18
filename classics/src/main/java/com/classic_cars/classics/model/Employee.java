@@ -14,13 +14,12 @@ import lombok.Setter;
 @Setter
 public class Employee {
     @Id
-    int employeeNumber;
+    Integer employeeNumber;
     String lastName;
     String firstName;
     String extension;
     String email;
     String officeCode;
-    @Nullable
-    int reportsTo;
+    Integer reportsTo;
     String jobTitle;
 }

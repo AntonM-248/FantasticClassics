@@ -1,5 +1,7 @@
-# Fantastic Classics
+﻿### Fantastic Classics
 
-A passion project which displays information about 
-a company which sells models of classic vehicles ranging
-from planes to cars. 
+Fantastic Classics is a full stack application which uses a dynamic MySQL database to store information about some of the most legendary vehicles of human history. It uses sample data to demonstrate the potential sales that could have occurred throughout time of exact replica models of these vibrant machines. 
+
+
+# Database Structure
+

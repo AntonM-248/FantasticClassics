@@ -12,7 +12,7 @@ import lombok.Setter;
 public class Customer {
     @Id
     @Column(name = "customerNumber")
-    int customerNumber;
+    Integer customerNumber;
     @Column(name = "customerName")
     String customerName;
     @Column(name = "contactLastName")
@@ -34,7 +34,7 @@ public class Customer {
     @Column(name = "country")
     String country;
     @Column(name = "salesRepEmployeeNumber", nullable = true)
-    int salesRepEmployeeNumber;
+    Integer salesRepEmployeeNumber;
     @Column(name = "creditLimit")
-    double creditLimit;
+    Double creditLimit;
 }
